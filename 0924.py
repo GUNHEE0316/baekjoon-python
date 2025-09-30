@@ -24,12 +24,28 @@
 # print(min(my_list), max(my_list))
 
 #4-4
-import sys
-my_list = []
-for i in range(9):
-    N= int(sys.stdin.readline())
-    my_list.append(N)
+# import sys
+# my_list = []
+# for i in range(9):
+#     N= int(sys.stdin.readline())
+#     my_list.append(N)
     
-print(max(my_list))
-print(my_list.index(max(my_list))+1)
-    
+# print(max(my_list))
+# print(my_list.index(max(my_list))+1)
+
+#4-5
+
+# import sys
+
+# N, M = map(int, sys.stdin.readline().split())
+
+# baskets = [0] * N
+
+# for _ in range(M):
+
+#     i, j, k = map(int, sys.stdin.readline().split()) 
+
+#     for idx in range(i - 1, j):
+#         baskets[idx] = k 
+
+# print(*baskets)
